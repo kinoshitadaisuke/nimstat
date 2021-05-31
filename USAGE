@@ -1,0 +1,25 @@
+USAGE:
+
+An example of using "nimstat.py".
+
+% ./nimstat.py -r sigclip -t 3.0 -n 30 *.fits
+
+---------------------------------------------------------------------------
+./nimstat.py -h
+usage: nimstat.py [-h] [-r {NONE,sigclip}] [-t THRESHOLD] [-n MAXITERS]
+                  files [files ...]
+
+calculating statistical information of FITS files
+
+positional arguments:
+  files                 FITS files
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -r {NONE,sigclip}, --rejection {NONE,sigclip}
+                        rejection algorithm
+  -t THRESHOLD, --threshold THRESHOLD
+                        threshold for sigma clipping (default: 4)
+  -n MAXITERS, --maxiters MAXITERS
+                        maximum number of iterations (default: 10)
+---------------------------------------------------------------------------
