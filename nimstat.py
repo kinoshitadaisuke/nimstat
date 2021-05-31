@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2021/05/31 09:49:10 (CST) daisuke>
+# Time-stamp: <2021/05/31 10:26:37 (CST) daisuke>
 #
 
 #
@@ -11,7 +11,7 @@
 #
 #   author: Kinoshita Daisuke
 #
-#   version 1.0 on 31/May/2021
+#   version 1.0 on 31/May/2021 by Kinoshita Daisuke
 #
 
 #
