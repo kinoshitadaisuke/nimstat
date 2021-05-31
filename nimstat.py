@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2021/05/31 09:10:35 (CST) daisuke>
+# Time-stamp: <2021/05/31 09:49:10 (CST) daisuke>
 #
 
 #
@@ -99,6 +99,7 @@ for file_fits in list_files:
     # making a masked array
     image_masked = numpy.ma.array (image, mask=False)
 
+    # sigma-clipping algorithm
     if (rejection == 'sigclip'):
         image_masked = numpy.ma.array (image, mask=False)
         # iterations
