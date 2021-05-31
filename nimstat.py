@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2021/05/31 10:26:37 (CST) daisuke>
+# Time-stamp: <2021/05/31 13:08:30 (CST) daisuke>
 #
 
 #
@@ -34,7 +34,7 @@ import numpy.ma
 import astropy
 import astropy.io.fits
 
-# construction pf parser object
+# construction of parser object
 desc = 'calculating statistical information of FITS files'
 parser = argparse.ArgumentParser (description=desc)
 
